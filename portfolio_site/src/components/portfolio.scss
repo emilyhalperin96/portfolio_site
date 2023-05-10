@@ -3,17 +3,20 @@
 .portfolio{
     background-color: lightgrey;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 
     h1{
         font-size: 50px;
+        color: $mainColor
     }
     ul{
         margin: 10px;
         padding: 0;
         display: flex;
-
+        list-style: none;
     }
 
     .container{
@@ -22,6 +25,8 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
+        margin-bottom: 70px;
+        margin-top: 35px;
 
         .item{
             width: 220px;

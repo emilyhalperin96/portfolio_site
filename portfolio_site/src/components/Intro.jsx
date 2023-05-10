@@ -14,7 +14,7 @@ export default function Intro() {
         <div className="wrapper">
           <h1>Emily Halperin</h1>
           <h2>Software Engineer</h2>
-          <h3>Ex-Product Manager & Marketer</h3>
+          <h3>Former Product Manager & Marketer</h3>
         </div>
         <a href='#portfolio'>
           <KeyboardArrowDownIcon />

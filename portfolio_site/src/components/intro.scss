@@ -6,25 +6,26 @@
 
     .left{
 
-        flex: 0.5;
+        flex: 1;
         overflow: hidden;
 
         .imgContainer{
-            width: 500px;
-            height: 500px;
+            width: 400px;
+            height: 400px;
             display: flex;
             align-items: flex-end;
             justify-content: center;
             float: right;
         }
         img{
-            height: 90%
+            height: 90%;
+            border-radius: 50%;
         }
     }
 
     .right{
 
-        flex: 0.5;
+        flex: 1.5;
         position: relative;
 
         .wrapper{
@@ -38,13 +39,14 @@
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+                color: $mainColor;
                 
             }
             h2{
-                font-size: 35px;
+                font-size: 30px;
             }
             h3{
-                font-size: 30px;
+                font-size: 20px;
             }
         }
 

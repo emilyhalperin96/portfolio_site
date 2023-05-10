@@ -20,10 +20,7 @@ export default function Portfolio() {
       id: 'Pizza Builder',
       title: "Pizza Builder",
     },
-    {
-      id: 'featured4',
-      title: "Featured4",
-    }
+
   ]
 
   return (
@@ -51,10 +48,6 @@ export default function Portfolio() {
           <h3>Pizza Builder</h3>
         </div>
 
-        <div className="item">
-          <img></img>
-          <h3>Item Title</h3>
-        </div>
       </div>
     </div>
   )
